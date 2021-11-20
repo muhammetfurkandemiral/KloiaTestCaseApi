@@ -66,8 +66,8 @@ Feature: Test Automation Case Study-2 (API)
     And print 'after post', response
 
 
-  @task5 @wip
-  Scenario: Task4 - call
+  @wip
+  Scenario: Call Task 4
     * def demo = call read('Kloia.feature@task4') {username : 'MFD',lastname : 'DEMIRAL'}
 
 
