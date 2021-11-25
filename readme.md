@@ -2,6 +2,11 @@
 
 Test Automation Case Study-2 (API)
 
+>How to work
+>
+https://user-images.githubusercontent.com/37184598/142753997-2a90803d-9619-4a52-a061-287403dbf04e.mp4
+
+
 **Task-1**
 
 ● Set path pet/findByStatus
