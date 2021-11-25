@@ -6,11 +6,11 @@ public class Helper {
 
     static Faker faker = new Faker();
 
-    public static String email(String name){
-        return name.toLowerCase() + "@email.com";
+    public static String email(){
+        return faker.internet().emailAddress();
     }
     public static String id() {
-        return faker.address().buildingNumber();
+        return String.valueOf(faker.number().randomDigit());
     }
     public static String userName() {
         return faker.name().username();

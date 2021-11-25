@@ -21,7 +21,7 @@ Feature: Test Automation Case Study-2 (API)
 
   @task2 @wip
   Scenario: Task2
-    * print 'email:' , helper.email(helper.firstName())
+    * print 'email:' , helper.email()
 
   @task3 @wip
   Scenario: Task3
@@ -34,7 +34,7 @@ Feature: Test Automation Case Study-2 (API)
     And set user.username = helper.userName()
     And set user.firstName = helper.firstName()
     And set user.lastName = helper.lastName()
-    And set user.email = helper.email(helper.firstName())
+    And set user.email = helper.email()
     And set user.password = helper.password()
     And set user.phone = helper.phone()
     And set user.userStatus = helper.userStatus()
@@ -55,7 +55,7 @@ Feature: Test Automation Case Study-2 (API)
     And set user.username = '#(username)'
     And set user.firstName = helper.firstName()
     And set user.lastName = '#(lastname)'
-    And set user.email = helper.email(helper.firstName())
+    And set user.email = helper.email()
     And set user.password = helper.password()
     And set user.phone = helper.phone()
     And set user.userStatus = helper.userStatus()
